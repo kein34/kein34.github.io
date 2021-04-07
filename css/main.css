@@ -1,0 +1,28 @@
+body {
+    background: url(img/2.jpg);
+    color: white;
+    
+   }
+
+#progress{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	
+	z-index: 9999;
+	
+    border: 5px white; 
+}
+#bar{
+	width: 0;
+	height: 5px;
+	background-color: #FF9E00 ;
+}
+
+.wrapper{
+	margin-top: 50px;
+}
+
